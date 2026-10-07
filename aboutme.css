@@ -105,3 +105,94 @@ p {
     text-align: center;
     margin-top: 20%;
 }
+
+p{
+    margin: 70px ;
+    font-family: "Fira Sans", sans-serif;
+}
+
+.contact {
+    text-align: center;
+    max-width: 700px;
+    margin: 100px auto;
+    padding: 0 30px;
+}
+
+.contact-intro {
+    color: #888;
+    font-family: "Comic Relief", sans-serif;
+    font-size: 18px;
+    letter-spacing: 3px;
+    margin: 0 0 10px 0;
+}
+
+.contact h1 {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 48px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin: 0 0 20px 0;
+}
+
+.contact-text {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 18px;
+    color: #666;
+    line-height: 1.5;
+    margin: 0 auto 50px auto;
+    max-width: 550px;
+}
+
+.contact-links {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    gap: 20px;
+    padding: 20px 25px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    text-decoration: none;
+    color: #333;
+    background-color: #fafafa;
+    transition: all 0.3s ease;
+}
+
+.contact-item:hover {
+    transform: translateY(-3px);
+    background-color: #f1f1f1;
+    border-color: #aaa;
+}
+
+.contact-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #777;
+    color: white;
+    font-size: 22px;
+    flex-shrink: 0;
+}
+
+.contact-item strong {
+    display: block;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+
+.contact-item small {
+    display: block;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 14px;
+    color: #777;
+}
